@@ -1,0 +1,17 @@
+<table>
+  <thead>
+    <th>Заголовок</th>
+    <th>Урл</th>
+    <th>Статус</th>
+  </thead>
+  <tbody>
+    <% for @page in pages -%>
+      <tr>
+        <td><%= @page.title %></td>
+        <td><%= @page.url %></td>
+        <td><%= @page.status %></td>
+      </tr>
+    <% end -%>
+  </tbody>
+</table>
+<a href=<%= routes.root_path %>>Назад</a>
