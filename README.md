@@ -8,8 +8,6 @@ How to run tests:
 % bundle exec rake
 ```
 
-```
-
 How to run the development server:
 
 ```
